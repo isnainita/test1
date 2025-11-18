@@ -1,8 +1,5 @@
-# [TEST] User Guide
-
 # DataAnalyzer User Guide
 
-## Table of Content
 
 ## Introduction
 
@@ -87,11 +84,13 @@ For example, place it in the Documents folder on your computer's C drive. The fo
 C:\Users\Isnaini\Documents\DataAnalyzer.exe
 ```
 
-1. Opening Your Command Line
+
+2. Opening Your Command Line
     - **Windows:** Open *Command Prompt*
     - **Mac/Linux:** Open *Terminal*
 
-1. Navigate to the folder containing the tool:
+
+3. Navigate to the folder containing the tool:
 
 ```
 cd C:\Users\Isnaini\Documents
@@ -157,6 +156,10 @@ After pressing **Enter**, a new file will appear containing the results:
 
 `result.txt`
 
+
+---
+
+
 ### **Explanation**
 
 - `DataAnalyzer.exe`
@@ -202,19 +205,19 @@ You have a CSV file containing daily sales numbers. You want to understand your 
 C:\Users\Isnaini\Documents
 ```
 
-1. Open Command Prompt and navigate to Documents:
+2. Open Command Prompt and navigate to Documents:
 
 ```bash
 cd C:\Users\Isnaini\Documents
 ```
 
-1. Run the analysis:
+3. Run the analysis:
 
 ```
 DataAnalyzer.exe --input sales.csv --mean --median --mode --output sales_analysis.txt
 ```
 
-1. Open `sales_analysis.txt` to view:
+4. Open `sales_analysis.txt` to view:
 
 ```
 Mean: 152.4
