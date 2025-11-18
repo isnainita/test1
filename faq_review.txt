@@ -1,4 +1,10 @@
-Rewritten FAQ:
+Original FAQ:
+
+Q: What formats does DataAnalyzer support for input files?
+A: The tool can process files.
+
+
+Rewritten FAQ by Isnaini MS:
 
 Q: What input file formats can I use with DataAnalyzer?
 A: DataAnalyzer currently supports two file formats: CSV and JSON. You can upload your file through the app, and the tool will automatically check and read the data for you. Additional formats may be added in future releases, so feel free to check our release notes for the latest updates.
