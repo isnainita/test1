@@ -1,9 +1,6 @@
-# [TEST] API Doc
-
 # API Documentation
 
 ## Overview
-
 This **API Documentation** provides a streamlined workflow for uploading datasets, performing automated statistical analysis, and retrieving processed output files. It is designed to enable development teams to implement these into applications through RESTful endpoints.
 
 The API supports **three major** operations:
@@ -12,7 +9,7 @@ The API supports **three major** operations:
 3. **Download** the generated analysis results
 
 All responses are returned in JSON.
-
+  
 ---
 
 ## Authentication
@@ -33,11 +30,12 @@ Requests without a valid key return **`401 Unauthorized`**.
 
 Upload a dataset for analysis.
 
-to the DataAnalyzer system.
+
 
 **Description**
 
 Accepts a base64-encoded file. Supported: `.csv`  or `.json`
+
 
 **Headers**
 
